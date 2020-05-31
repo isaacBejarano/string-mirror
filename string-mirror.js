@@ -1,7 +1,4 @@
-// 1. INPUT - given string
-let sample = "Lorem Ipsum";
-
-// 2.  ALGORITHM
+// ALGORITHM
 function mirror(iterable) {
 	let reversed = "";
 
@@ -11,10 +8,5 @@ function mirror(iterable) {
 	return reversed;
 }
 
-// 1. call
-let mirrored = mirror(sample);
-
-console.log(mirrored);
-
-// JEST / unit test
-module.exports = { mirror };
+// TEST
+// module.exports = { mirror };
