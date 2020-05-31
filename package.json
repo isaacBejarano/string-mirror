@@ -1,0 +1,26 @@
+{
+  "name": "string-mirror",
+  "version": "1.0.0",
+  "description": "it reverses strings",
+  "main": "mirror.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacBejarano/string-mirror.git"
+  },
+  "author": "Isaac Bejarano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacBejarano/string-mirror/issues"
+  },
+  "homepage": "https://github.com/isaacBejarano/string-mirror#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.3"
+  }
+}
